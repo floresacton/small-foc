@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mini-foc.kicad_pro",
+    "filename": "small-foc.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -593,7 +593,7 @@
     "netclass_patterns": [
       {
         "netclass": "Ground",
-        "pattern": "(GND|VSS)"
+        "pattern": "(GND.*|VSS|)"
       },
       {
         "netclass": "Power",
@@ -746,6 +746,14 @@
     [
       "93976958-c01e-4ddd-b330-60a0b506dc60",
       "PhaseA"
+    ],
+    [
+      "5ab557d8-db13-4218-acdd-a10e9f9bb40e",
+      "PhaseB"
+    ],
+    [
+      "eac06cd0-e18b-493e-8461-516369c2786a",
+      "PhaseC"
     ]
   ],
   "text_variables": {}
